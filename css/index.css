@@ -276,6 +276,7 @@ footer nav a {
     align-content: space-between;
 }
 
+/* Strategy box*/
 .infoBoxes .Strat{
     width:372px;
     height:500px;
@@ -301,6 +302,8 @@ footer nav a {
 .infoBoxes .Strat img{
     margin-top:35px;
 }
+
+/*How we Work Box*/
 .infoBoxes .howWork{
     width:372px;
     height:500px;
@@ -327,6 +330,8 @@ footer nav a {
 .infoBoxes .howWork img{
     margin-top:35px;
 }
+
+/*Places we Work Box*/
 
 .infoBoxes .placesWork{
     border-bottom: 1px dashed black;
@@ -355,6 +360,8 @@ footer nav a {
     margin-top:35px;
 }
 
+
+/*Collaboration box*/
 .infoBoxes .collaboration{
     width:372px;
     height:500px;
