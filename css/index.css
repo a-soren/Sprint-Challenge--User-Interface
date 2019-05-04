@@ -260,3 +260,132 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* about page CSS*/
+
+
+ .about-page .abt{
+     border-bottom:1px dashed black;
+ }
+
+.infoBoxes{
+    
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.infoBoxes .Strat{
+    width:372px;
+    height:500px;
+    border-bottom: 1px dashed black;
+}
+.infoBoxes .Strat button{
+    width: 100px;
+    height: 35px;
+    font-size:13px;
+    border-color:black;
+    background: white;
+
+}
+
+.infoBoxes .Strat h3{
+    padding-top:10px;
+}
+
+.infoBoxes .Strat p{
+    margin-bottom: 10px;
+}
+
+.infoBoxes .Strat img{
+    margin-top:35px;
+}
+.infoBoxes .howWork{
+    width:372px;
+    height:500px;
+    border-bottom: 1px dashed black;
+}
+
+.infoBoxes .howWork button{
+    width: 100px;
+    height: 35px;
+    font-size:13px;
+    border-color:black;
+    background: white;
+
+}
+
+.infoBoxes .howWork h3{
+    padding-top:10px;
+}
+
+.infoBoxes .howWork p{
+    margin-bottom: 10px;
+}
+
+.infoBoxes .howWork img{
+    margin-top:35px;
+}
+
+.infoBoxes .placesWork{
+    border-bottom: 1px dashed black;
+    width:372px;
+    height:500px;
+}
+
+.infoBoxes .placesWork button{
+    width: 100px;
+    height: 35px;
+    font-size:13px;
+    border-color:black;
+    background: white;
+
+}
+
+.infoBoxes .placesWork h3{
+    padding-top:10px;
+}
+
+.infoBoxes .placesWork p{
+    margin-bottom: 10px;
+}
+
+.infoBoxes .placesWork img{
+    margin-top:35px;
+}
+
+.infoBoxes .collaboration{
+    width:372px;
+    height:500px;
+    border-bottom: 1px dashed black;
+}
+
+.infoBoxes .collaboration button{
+    width: 100px;
+    height: 35px;
+    font-size:13px;
+    border-color:black;
+    background: white;
+
+}
+
+.infoBoxes .collaboration h3{
+    padding-top:10px;
+}
+
+.infoBoxes .collaboration p{
+    margin-bottom: 10px;
+}
+
+.infoBoxes .collaboration img{
+    margin-top:35px;
+}
+
+.lets h3{
+    margin-top:35px;
+}
+
+.lets p{
+    margin-bottom:25px;
+}
