@@ -71,6 +71,23 @@ p {
     margin: 0 auto;
 }
 
+.navigation{
+    height:45px;
+    display:flex;
+    justify-content: space-around;
+    
+}
+
+.nav{
+    color:black;
+    text-decoration: none;
+    margin-top:27px;
+    font-size:17px;
+}
+
+.header-img{
+    margin: 25px auto;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -101,10 +118,109 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +259,140 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* about page CSS*/
+
+
+ .about-page .abt{
+     border-bottom:1px dashed black;
+ }
+
+.infoBoxes{
+    
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+/* Strategy box*/
+.infoBoxes .Strat{
+    width:372px;
+    height:500px;
+    border-bottom: 1px dashed black;
+}
+.infoBoxes .Strat button{
+    width: 100px;
+    height: 35px;
+    font-size:13px;
+    border-color:black;
+    background: white;
+
+}
+
+.infoBoxes .Strat h3{
+    padding-top:10px;
+}
+
+.infoBoxes .Strat p{
+    margin-bottom: 10px;
+}
+
+.infoBoxes .Strat img{
+    margin-top:35px;
+}
+
+/*How we Work Box*/
+.infoBoxes .howWork{
+    width:372px;
+    height:500px;
+    border-bottom: 1px dashed black;
+}
+
+.infoBoxes .howWork button{
+    width: 100px;
+    height: 35px;
+    font-size:13px;
+    border-color:black;
+    background: white;
+
+}
+
+.infoBoxes .howWork h3{
+    padding-top:10px;
+}
+
+.infoBoxes .howWork p{
+    margin-bottom: 10px;
+}
+
+.infoBoxes .howWork img{
+    margin-top:35px;
+}
+
+/*Places we Work Box*/
+
+.infoBoxes .placesWork{
+    border-bottom: 1px dashed black;
+    width:372px;
+    height:500px;
+}
+
+.infoBoxes .placesWork button{
+    width: 100px;
+    height: 35px;
+    font-size:13px;
+    border-color:black;
+    background: white;
+
+}
+
+.infoBoxes .placesWork h3{
+    padding-top:10px;
+}
+
+.infoBoxes .placesWork p{
+    margin-bottom: 10px;
+}
+
+.infoBoxes .placesWork img{
+    margin-top:35px;
+}
+
+
+/*Collaboration box*/
+.infoBoxes .collaboration{
+    width:372px;
+    height:500px;
+    border-bottom: 1px dashed black;
+}
+
+.infoBoxes .collaboration button{
+    width: 100px;
+    height: 35px;
+    font-size:13px;
+    border-color:black;
+    background: white;
+
+}
+
+.infoBoxes .collaboration h3{
+    padding-top:10px;
+}
+
+.infoBoxes .collaboration p{
+    margin-bottom: 10px;
+}
+
+.infoBoxes .collaboration img{
+    margin-top:35px;
+}
+
+.lets h3{
+    margin-top:35px;
+}
+
+.lets p{
+    margin-bottom:25px;
 }

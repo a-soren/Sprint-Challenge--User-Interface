@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+semantic HTML is markup that makes clear the content of the page. It should read like a basic road map of the site, without ever seeing a design or reading actual content. It should make a great framework, so that it is easy to understand the flow of the page. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+display: block means it acts like a block element. meaning it takes up the line and takes up the width, whereas display:inline acts like and inline element such as <span>. width and height have no effect.
 
 3. What are the 4 areas of the box model?
 
+content, padding, border, and margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+it works off the cross axis (top to bottom of the box)
+
 5. Explain why git is valuable to a team of developers.
+
+it allows for a team to work on the same project in different sections and add in codes without creating issues and making sure the projects compile well. It also allows you too see others codes so you can build off of them. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
